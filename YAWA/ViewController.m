@@ -16,7 +16,7 @@
 @property (nonatomic, assign) CGFloat screenHeight;
 @end
 
-@implementation ViewController
+@implementation ViewController 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -47,8 +47,6 @@
     self.tableView.pagingEnabled = YES;// set paging to scroll one cell everytime
     [self.view addSubview:self.tableView];
     
-    
-    //layout
     // set heard length = screen
     CGRect headerFrame = [UIScreen mainScreen].bounds;
     // center

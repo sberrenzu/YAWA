@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5AD58CE3-FF53-47F6-BB0F-9E44069AED65</string>
+	<key>IDESourceControlProjectName</key>
+	<string>YAWA</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>43B6AF014FD02172194E833817427A14AEB931DE</key>
+		<string>https://github.com/sberrenzu/YAWA.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>YAWA.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>43B6AF014FD02172194E833817427A14AEB931DE</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/sberrenzu/YAWA.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>43B6AF014FD02172194E833817427A14AEB931DE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>43B6AF014FD02172194E833817427A14AEB931DE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>YAWA</string>
+		</dict>
+	</array>
+</dict>
+</plist>
