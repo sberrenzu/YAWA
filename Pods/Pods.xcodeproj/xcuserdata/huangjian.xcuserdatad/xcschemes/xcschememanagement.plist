@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>HexColors.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -14,17 +19,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Mantle.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-YAWA.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>ReactiveCocoa.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,12 +32,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>27CEAF9FB49B8E59D551AD5A27FC881C</key>
+		<key>410B25DF16EA5C5B3E2698F74F9625FB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>426BC4549A625B5E1E4200D5261A98BF</key>
+		<key>4611E3A707F412C365B7F745FC0AED7D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,12 +47,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9D2F576F0CE40A30C5280A8A91775929</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AEC53A4382A607CA54D4C8C2973E5D9A</key>
+		<key>A286891A787C88B73F21088572D3D7C5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
