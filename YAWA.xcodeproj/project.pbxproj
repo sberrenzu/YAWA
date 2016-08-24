@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		7E68A2531D6DA01D0008075E /* YAWAClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E68A2521D6DA01D0008075E /* YAWAClient.m */; };
 		7E68A2551D6DB3F60008075E /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E68A2541D6DB3F60008075E /* images.xcassets */; };
-		7E7C6A711D6D992B00411368 /* YAWAWeaher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7C6A701D6D992B00411368 /* YAWAWeaher.m */; };
+		7E7C6A711D6D992B00411368 /* YAWAWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7C6A701D6D992B00411368 /* YAWAWeather.m */; };
 		7E9F6C271D6D88E1006ECEBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9F6C261D6D88E1006ECEBC /* main.m */; };
 		7E9F6C2A1D6D88E1006ECEBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9F6C291D6D88E1006ECEBC /* AppDelegate.m */; };
 		7E9F6C2D1D6D88E1006ECEBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9F6C2C1D6D88E1006ECEBC /* ViewController.m */; };
@@ -34,9 +34,9 @@
 		7073408C9BDEB41456948A32 /* libPods-YAWA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YAWA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E68A2511D6DA0080008075E /* YAWAClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YAWAClient.h; sourceTree = "<group>"; };
 		7E68A2521D6DA01D0008075E /* YAWAClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAWAClient.m; sourceTree = "<group>"; };
-		7E68A2541D6DB3F60008075E /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
-		7E7C6A701D6D992B00411368 /* YAWAWeaher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAWAWeaher.m; sourceTree = "<group>"; };
-		7E7C6A721D6D994700411368 /* YAWAWeatheR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YAWAWeatheR.h; sourceTree = "<group>"; };
+		7E68A2541D6DB3F60008075E /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = images.xcassets; path = ../images.xcassets; sourceTree = "<group>"; };
+		7E7C6A701D6D992B00411368 /* YAWAWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAWAWeather.m; sourceTree = "<group>"; };
+		7E7C6A721D6D994700411368 /* YAWAWeather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YAWAWeather.h; sourceTree = "<group>"; };
 		7E9F6C211D6D88E0006ECEBC /* YAWA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YAWA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E9F6C251D6D88E1006ECEBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E9F6C261D6D88E1006ECEBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -83,7 +83,6 @@
 		7E9F6C181D6D88E0006ECEBC = {
 			isa = PBXGroup;
 			children = (
-				7E68A2541D6DB3F60008075E /* images.xcassets */,
 				7E9F6C231D6D88E0006ECEBC /* YAWA */,
 				7E9F6C3D1D6D88E1006ECEBC /* YAWATests */,
 				7E9F6C221D6D88E0006ECEBC /* Products */,
@@ -104,17 +103,17 @@
 		7E9F6C231D6D88E0006ECEBC /* YAWA */ = {
 			isa = PBXGroup;
 			children = (
+				7E68A2541D6DB3F60008075E /* images.xcassets */,
 				7E9F6C281D6D88E1006ECEBC /* AppDelegate.h */,
 				7E9F6C291D6D88E1006ECEBC /* AppDelegate.m */,
 				7E9F6C2B1D6D88E1006ECEBC /* ViewController.h */,
 				7E9F6C2C1D6D88E1006ECEBC /* ViewController.m */,
-				7E9F6C2E1D6D88E1006ECEBC /* Main.storyboard */,
-				7E9F6C331D6D88E1006ECEBC /* LaunchScreen.xib */,
-				7E9F6C241D6D88E0006ECEBC /* Supporting Files */,
-				7E7C6A701D6D992B00411368 /* YAWAWeaher.m */,
-				7E7C6A721D6D994700411368 /* YAWAWeatheR.h */,
+				7E7C6A701D6D992B00411368 /* YAWAWeather.m */,
+				7E7C6A721D6D994700411368 /* YAWAWeather.h */,
 				7E68A2511D6DA0080008075E /* YAWAClient.h */,
 				7E68A2521D6DA01D0008075E /* YAWAClient.m */,
+				D1DF6B8B1D6DB578000893D4 /* Storyboards */,
+				7E9F6C241D6D88E0006ECEBC /* Supporting Files */,
 			);
 			path = YAWA;
 			sourceTree = "<group>";
@@ -151,6 +150,15 @@
 				7073408C9BDEB41456948A32 /* libPods-YAWA.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1DF6B8B1D6DB578000893D4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7E9F6C2E1D6D88E1006ECEBC /* Main.storyboard */,
+				7E9F6C331D6D88E1006ECEBC /* LaunchScreen.xib */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,7 +316,7 @@
 				7E9F6C2A1D6D88E1006ECEBC /* AppDelegate.m in Sources */,
 				7E9F6C271D6D88E1006ECEBC /* main.m in Sources */,
 				7E68A2531D6DA01D0008075E /* YAWAClient.m in Sources */,
-				7E7C6A711D6D992B00411368 /* YAWAWeaher.m in Sources */,
+				7E7C6A711D6D992B00411368 /* YAWAWeather.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
