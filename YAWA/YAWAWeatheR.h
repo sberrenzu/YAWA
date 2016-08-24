@@ -11,6 +11,8 @@
 
 @interface WeatherCondition : NSObject
 
+
+
 @property (nonatomic, strong) NSDate *date;
 @property (nonatomic, strong) NSNumber *humidity;
 @property (nonatomic, strong) NSNumber *temperature;
